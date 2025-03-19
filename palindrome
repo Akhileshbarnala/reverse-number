@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+      int i,n,r=0,c;
+    printf("Enter the number");
+    scanf("%d",&n);
+    c=n;
+  while(n)
+  {  i=n%10;
+   r=r*10+i;
+    n=n/10;
+   
+  }
+  
+  if(c==r)
+ printf("it's paliondrome");
+ else
+ printf("not a  paliondrome");
+  
+
+    return 0;
+}
